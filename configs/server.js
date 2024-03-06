@@ -6,12 +6,14 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import UserRoutes from '../src/model/user.routes.js';
+import LoginRoutes from '../src/auth/auth.routes.js';
 
 class Server {
     constructor() {
         this.app = express();
         this.port = process.env.PORT;
         this.UserRoutes = '/Ventas_Online/v1/user';
+        this.LoginRoutes = '/Ventas_Online/v1/login';
         this.middlewares();
         this.ConectionDB();
         this.routes();
@@ -31,6 +33,7 @@ class Server {
 
     routes(){
         this.app.use(this.UserRoutes, UserRoutes);
+        this.app.use(this.LoginRoutes, LoginRoutes);
     }
 
     listen(){
