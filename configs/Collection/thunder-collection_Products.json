@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Products",
+    "dateExported": "2024-03-07T04:17:32.217Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d4e0ec0d-e336-4eb3-927d-7432bd3061e5",
+            "colId": "10e4de93-9ecc-4a68-81a4-7ea09a28afac",
+            "containerId": "",
+            "name": "productsPost",
+            "url": "http://localhost:3000/Ventas_Online/v1/product",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-06T22:42:12.116Z",
+            "modified": "2024-03-06T23:14:20.631Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Producto 1\",\n  \"description\":\"producto de prueba 1\",\n  \"price\":\"12\",\n  \"stockProduc\":\"100\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

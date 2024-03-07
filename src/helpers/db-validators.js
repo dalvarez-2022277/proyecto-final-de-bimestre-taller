@@ -1,4 +1,4 @@
-import user from '../model/user.model.js';
+import user from '../users/user.model.js';
 export const existeEmail = async (email = '') => {
     const emailmin = email.toLowerCase();
     const existeEmail = await user.findOne({

@@ -5,8 +5,11 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
-import UserRoutes from '../src/model/user.routes.js';
+import UserRoutes from '../src/users/user.routes.js';
 import LoginRoutes from '../src/auth/auth.routes.js';
+import ProductRoutes from '../src/products/product.routes.js';
+import CartRoutes from '../src/cart/cart.routes.js';
+import OrderRoutes from '../src/cart/order.routes.js';
 
 class Server {
     constructor() {
@@ -14,6 +17,9 @@ class Server {
         this.port = process.env.PORT;
         this.UserRoutes = '/Ventas_Online/v1/user';
         this.LoginRoutes = '/Ventas_Online/v1/login';
+        this.ProductRoutes = '/Ventas_Online/v1/product';
+        this.CartRoutes = '/Ventas_Online/v1/cart';
+        this.OrderRoutes = '/Ventas_Online/v1/order';
         this.middlewares();
         this.ConectionDB();
         this.routes();
@@ -34,6 +40,9 @@ class Server {
     routes(){
         this.app.use(this.UserRoutes, UserRoutes);
         this.app.use(this.LoginRoutes, LoginRoutes);
+        this.app.use(this.ProductRoutes, ProductRoutes)
+        this.app.use(this.CartRoutes, CartRoutes);
+        this.app.use(this.OrderRoutes, OrderRoutes);
     }
 
     listen(){
