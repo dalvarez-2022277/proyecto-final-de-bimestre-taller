@@ -1,18 +1,15 @@
 import Cart from '../cart/cart.model.js';
 import Product from '../products/product.model.js';
-import {validarJWT} from '../middlewares/validar-jwt.js';
-
 export const addToCart = async (req, res) => {
   console.log('Usuario:', req.user);
-  const { userId } = req.user;
+  const userId = req.user._id; 
   const { productId, quantity } = req.body;
 
   try {
     let cart = await Cart.findOne({ userId });
 
     if (!cart) {
-      // Si el carrito no existe, crear uno nuevo con el userId proporcionado por req.user
-      cart = new Cart({ userId: req.user._id, products: [] });
+      cart = new Cart({ userId, products: [] });
     }
 
     const product = await Product.findById(productId);
