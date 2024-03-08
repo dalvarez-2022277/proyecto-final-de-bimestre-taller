@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Carrito",
-    "dateExported": "2024-03-07T04:17:35.084Z",
+    "dateExported": "2024-03-08T14:09:50.254Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,33 +14,20 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-07T02:08:55.411Z",
-            "modified": "2024-03-07T02:12:44.088Z",
-            "headers": [],
+            "modified": "2024-03-08T14:01:47.032Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhOWJmNDZmOGMzNzgyMGZiOWQ0MTciLCJpYXQiOjE3MDk5MDY0ODgsImV4cCI6MTcwOTkxMzY4OH0.FVCf-wDaBOQGJfkcaEjW1De1Bf42Gfb6RYizW2yDiJU"
+                }
+            ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"userId\": \"65e603fbd03c155a798cab2c\",\r\n    \"productId\": \"65e9111de79bd931e84a5e39\",\r\n    \"quantity\": 2\r\n}\r\n",
+                "raw": "{\n    \"productId\": \"65e8f8cdbe4c8b471bc1d33c\",\n    \"quantity\": 50\n}\n",
                 "form": []
             },
-            "tests": []
-        },
-        {
-            "_id": "b25022d8-bd7c-4c1c-b039-fc74e32e7c3d",
-            "colId": "4c34849b-595d-429e-80e9-ddd260d08b7f",
-            "containerId": "",
-            "name": "ordenarcarrito",
-            "url": "http://localhost:3000/Ventas_Online/v1/order",
-            "method": "POST",
-            "sortNum": 30000,
-            "created": "2024-03-07T02:13:29.857Z",
-            "modified": "2024-03-07T02:15:42.524Z",
-            "headers": [],
-            "params": [],
-            "body": {
-                "type": "json",
-                "raw": "{\r\n    \"userId\": \"65e603fbd03c155a798cab2c\",\r\n    \"products\": \"Producto 1\",\r\n    \"total\": 12\r\n}",
-                "form": []
-            },
+            "reqType": "post",
             "tests": []
         }
     ]

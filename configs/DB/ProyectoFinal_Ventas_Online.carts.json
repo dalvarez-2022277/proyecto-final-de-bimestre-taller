@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "65eb19e3b5c0ea2a4ed643b2"
+  },
+  "userId": {
+    "$oid": "65e603fbd03c155a798cab2c"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "65e8f8cdbe4c8b471bc1d33c"
+      },
+      "stockProduc": 100,
+      "_id": {
+        "$oid": "65eb19e3b5c0ea2a4ed643b4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eb1a4bb5c0ea2a4ed643f5"
+  },
+  "userId": {
+    "$oid": "65ea9bf46f8c37820fb9d417"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "65e8f8cdbe4c8b471bc1d33c"
+      },
+      "stockProduc": 50,
+      "_id": {
+        "$oid": "65eb1a4bb5c0ea2a4ed643f7"
+      }
+    }
+  ],
+  "__v": 0
+}]
