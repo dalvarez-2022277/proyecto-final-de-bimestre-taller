@@ -16,7 +16,11 @@ const cartSchema = new mongoose.Schema({
             type: Number,
             required: true
         }
-    }]
+    }],
+    totalPagar: {  // Corregido a totalPagar
+        type: Number,
+        default: 0
+    }
 });
 
 const Cart = mongoose.model('Cart', cartSchema);

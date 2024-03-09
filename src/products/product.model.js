@@ -27,10 +27,15 @@ const ProductSchema = mongoose.Schema({
     }
 });
 
-ProductSchema.methods.toJSON = function () {
-    const { __v, _id, ...products } = this.toObject();
-    products.uid = _id;
-    return products;
-}
-
+ProductSchema.methods.toCartObject = function () {
+    const { _id, name, price, ...rest } = this.toObject();
+    return {
+      product: {
+        _id,
+        name,
+        price
+      },
+      ...rest
+    };
+  };
 export default mongoose.model('Product', ProductSchema);

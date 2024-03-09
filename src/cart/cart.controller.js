@@ -1,8 +1,9 @@
 import Cart from '../cart/cart.model.js';
 import Product from '../products/product.model.js';
+
 export const addToCart = async (req, res) => {
   console.log('Usuario:', req.user);
-  const userId = req.user._id; 
+  const userId = req.user._id;
   const { productId, quantity } = req.body;
 
   try {
@@ -38,9 +39,36 @@ export const addToCart = async (req, res) => {
       }
       cart.products.push({ product: productId, stockProduc: quantity });
     }
+    await cart.save();    
+    cart = await Cart.populate(cart, { path: 'products.product' });
 
+    const calcularTotalPagar = (productos) => {
+      let total = 0;
+      productos.forEach(item => {
+        total += item.product.price * item.stockProduc;
+      });
+      return total;
+    };
+
+    const totalPagar = calcularTotalPagar(cart.products); // Cambio de totalApagar a totalPagar
+    cart.totalPagar = totalPagar; // Cambio de totalPrice a totalPagar
     await cart.save();
-    res.json(cart);
+
+    const responseData = {
+      _id: cart._id,
+      userId: cart.userId,
+      products: cart.products.map(item => ({
+        product: {
+          _id: item.product._id,
+          name: item.product.name,
+          price: item.product.price
+        },
+        quantityCarr: item.stockProduc
+      })),
+      totalPagar: totalPagar
+    };
+
+    res.json(responseData);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: 'Error interno del servidor' });

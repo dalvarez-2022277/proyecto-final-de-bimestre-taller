@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Carrito",
-    "dateExported": "2024-03-08T14:09:50.254Z",
+    "dateExported": "2024-03-09T01:45:34.195Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,17 +14,17 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-07T02:08:55.411Z",
-            "modified": "2024-03-08T14:01:47.032Z",
+            "modified": "2024-03-09T01:43:09.360Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhOWJmNDZmOGMzNzgyMGZiOWQ0MTciLCJpYXQiOjE3MDk5MDY0ODgsImV4cCI6MTcwOTkxMzY4OH0.FVCf-wDaBOQGJfkcaEjW1De1Bf42Gfb6RYizW2yDiJU"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhOWJmNDZmOGMzNzgyMGZiOWQ0MTciLCJpYXQiOjE3MDk5NDc2OTEsImV4cCI6MTcwOTk1NDg5MX0.-cUrDbwzyU4rXJhVlGunpprw1Np5fHCIrpRPsNyTFt0"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"productId\": \"65e8f8cdbe4c8b471bc1d33c\",\n    \"quantity\": 50\n}\n",
+                "raw": "{\n    \"productId\": \"65ebbea52de2403145638685\",\n    \"quantity\": 25\n}\n",
                 "form": []
             },
             "reqType": "post",

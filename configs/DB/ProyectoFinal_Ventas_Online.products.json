@@ -1,11 +1,22 @@
 [{
   "_id": {
-    "$oid": "65e8f8cdbe4c8b471bc1d33c"
+    "$oid": "65ebb0ba4909135a971a4937"
   },
   "name": "Producto 1",
   "description": "producto de prueba 1",
-  "price": 12,
-  "stockProduc": 100,
+  "price": 2.5,
+  "stockProduc": 10,
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebbea52de2403145638685"
+  },
+  "name": "Producto 2",
+  "description": "producto de prueba 2",
+  "price": 10,
+  "stockProduc": 50,
   "stateProduct": true,
   "__v": 0
 }]
