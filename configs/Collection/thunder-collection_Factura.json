@@ -1,0 +1,114 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Factura",
+    "dateExported": "2024-03-11T01:52:11.030Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "65e6f0d2-06df-42ac-943f-7a3dd7485ff7",
+            "colId": "48009f37-10ca-4574-9e1a-54db8ebcff32",
+            "containerId": "",
+            "name": "facturaPost",
+            "url": "http://localhost:3000/Ventas_Online/v1/factura",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-03-10T05:20:42.562Z",
+            "modified": "2024-03-11T01:48:56.301Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMjE1ODYsImV4cCI6MTcxMDEyODc4Nn0.YXGJdlRGaYpU-NQ1f-p7b3HEGtARLoJR1DfxN5kugBg"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "7d828677-e4d1-410c-8438-70c7fbeca297",
+            "colId": "48009f37-10ca-4574-9e1a-54db8ebcff32",
+            "containerId": "",
+            "name": "editarFactura",
+            "url": "http://localhost:3000/Ventas_Online/v1/factura/65ede56dca3c53bdcd39ca90",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-10T05:20:42.563Z",
+            "modified": "2024-03-10T18:58:57.883Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVkNDczODQ2ODhlZGMxMWMwZjQxN2IiLCJpYXQiOjE3MTAwOTM2MjgsImV4cCI6MTcxMDEwMDgyOH0.nHSTpe9vwXRJoMtPjYKBAvmqmUuvsOLPTh8tIgxj1DE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"productos\": [\n        {\n            \"producto\": \"65ed572c0b4c53315f04ad41\",\n            \"cantidad\": 3,\n            \"precioUnitario\": 100,\n            \"subtotal\": 300\n        }\n    ]\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "c434eea3-f809-4533-9c6f-43813c266c7b",
+            "colId": "48009f37-10ca-4574-9e1a-54db8ebcff32",
+            "containerId": "",
+            "name": "facturasGet",
+            "url": "http://localhost:3000/Ventas_Online/v1/factura/65ed46d44688edc11c0f4174",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-10T18:22:25.235Z",
+            "modified": "2024-03-11T01:49:18.779Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMjE1ODYsImV4cCI6MTcxMDEyODc4Nn0.YXGJdlRGaYpU-NQ1f-p7b3HEGtARLoJR1DfxN5kugBg"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "e17bb7ab-c13b-4a09-bd21-783b6e301fd5",
+            "colId": "48009f37-10ca-4574-9e1a-54db8ebcff32",
+            "containerId": "",
+            "name": "racturasspecGet",
+            "url": "http://localhost:3000/Ventas_Online/v1/factura/detalle/65ee3c5d189b9f44fcd179c1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-10T18:25:40.623Z",
+            "modified": "2024-03-11T01:50:03.578Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMjE1ODYsImV4cCI6MTcxMDEyODc4Nn0.YXGJdlRGaYpU-NQ1f-p7b3HEGtARLoJR1DfxN5kugBg"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "f684bb59-0a3f-442b-9d73-32cdcce02353",
+            "colId": "48009f37-10ca-4574-9e1a-54db8ebcff32",
+            "containerId": "",
+            "name": "historialGet",
+            "url": "http://localhost:3000/Ventas_Online/v1/factura/historial/65ee3c5d189b9f44fcd179c1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-10T19:03:23.083Z",
+            "modified": "2024-03-11T01:50:42.456Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMjE1ODYsImV4cCI6MTcxMDEyODc4Nn0.YXGJdlRGaYpU-NQ1f-p7b3HEGtARLoJR1DfxN5kugBg"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        }
+    ]
+}

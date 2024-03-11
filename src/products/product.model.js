@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+
 const ProductSchema = mongoose.Schema({
     name: {
         type: String,
@@ -17,6 +18,9 @@ const ProductSchema = mongoose.Schema({
         type: Number,
         required: [true, "the stock is a required parameter"],
     },
+    agotadoProduc: {
+        type: String,
+    },
     category: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Category'
@@ -27,15 +31,10 @@ const ProductSchema = mongoose.Schema({
     }
 });
 
-ProductSchema.methods.toCartObject = function () {
-    const { _id, name, price, ...rest } = this.toObject();
-    return {
-      product: {
-        _id,
-        name,
-        price
-      },
-      ...rest
-    };
-  };
+ProductSchema.methods.toJSON = function () {
+    const { __v, _id, ...products } = this.toObject();
+    products.uid = _id;
+    return products;
+}
+
 export default mongoose.model('Product', ProductSchema);

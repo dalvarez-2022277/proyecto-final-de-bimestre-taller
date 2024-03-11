@@ -1,33 +1,77 @@
 [{
   "_id": {
-    "$oid": "65e603fbd03c155a798cab2c"
+    "$oid": "65ee3c5d189b9f44fcd179c1"
   },
   "name": "Diego Alvarez",
-  "email": "dalvarez-2022277@kinal.edu.gt",
-  "password": "$2a$10$ekSp9AeoKaGRyjlYIf/xsuXu1HDeuuEpYUfXf.tN5oM.Tn17jv4.y",
+  "email": "Dalvarez-2022277@kinal.edu.gt",
+  "password": "$2a$10$2JF6Fso4U8x9sHuMNUagy.xwIAfpPJMc9ylUJQXwP5euGhvS4J8Vq",
   "role": "CLIENT",
-  "status": true,
+  "userState": true,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "65e8e6bd40250d0f27ea1775"
-  },
-  "name": "admin",
-  "email": "admin@gmail.com",
-  "password": "$2a$10$PreNjDMhaAK.yqifxBLatens8nLjnIPP7M4EEgdTJJ/zcU8rIXlGS",
-  "role": "ADMIN",
-  "status": true,
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "65ea9bf46f8c37820fb9d417"
+    "$oid": "65ee3c71189b9f44fcd179c4"
   },
   "name": "Sebastian Iscacuy",
-  "email": "sistacuy-2022017@kinal.edu.gt",
-  "password": "$2a$10$5cKLR.galX1EgHzkZotYeuLKMPrtAsuu/cs5yRFNLQZzsQbiSa1gi",
+  "email": "Siscatuy@kinal.edu.gt",
+  "password": "$2a$10$gsNyDJI3FjRaYNoQcwWv3.VLfoOvaYfYtxR9q2QLuAFCNpeAr9ibe",
   "role": "CLIENT",
-  "status": true,
+  "userState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee3c84189b9f44fcd179c7"
+  },
+  "name": "David Arevalo",
+  "email": "Darevalo@kinal.edu.gt",
+  "password": "$2a$10$V1WiKPyTKblc.Igv3TM0Y.iYRc9s2yGOQZ0VqpKK7CeVijqIH92oC",
+  "role": "CLIENT",
+  "userState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee3c96189b9f44fcd179ca"
+  },
+  "name": "Irene Marisol",
+  "email": "Irene@kinal.edu.gt",
+  "password": "$2a$10$82RKEdMPSQQRVeTZKU6wX.u.bgAwcKQIM2vVkyiaxma8siK416q4S",
+  "role": "CLIENT",
+  "userState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee3cb4189b9f44fcd179cd"
+  },
+  "name": "Luis Ricardo",
+  "email": "Luis@kinal.edu.gt",
+  "password": "$2a$10$5VHacGI32dVuSZodbJq6.uR4dVREvRfPcbppxkazN00C5mwUewzXe",
+  "role": "CLIENT",
+  "userState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee3dd0189b9f44fcd179d0"
+  },
+  "name": "Sebastian Alvarez",
+  "email": "Salvarez@kinal.edu.gt",
+  "password": "$2a$10$ZYonOSYZDtkQzSmI4suB5u3Dyya44ExLDKZQi.xZq8K3kHAA3kntm",
+  "role": "CLIENT",
+  "userState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee40df319b08826a34eaba"
+  },
+  "name": "admin",
+  "email": "admin@kinal.edu.gt",
+  "password": "$2a$10$D0AePfWK6J5CVLM3nOJ1FuGgl945lX8nSagv0YnU.QipZyoLhaLYy",
+  "role": "ADMIN",
+  "userState": true,
   "__v": 0
 }]

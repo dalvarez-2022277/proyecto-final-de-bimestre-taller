@@ -1,28 +1,91 @@
 {
     "client": "Thunder Client",
     "collectionName": "Products",
-    "dateExported": "2024-03-09T01:45:41.379Z",
+    "dateExported": "2024-03-11T01:52:33.681Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "d4e0ec0d-e336-4eb3-927d-7432bd3061e5",
-            "colId": "10e4de93-9ecc-4a68-81a4-7ea09a28afac",
+            "_id": "0ddaaae4-9e26-4ebe-b2d0-48b27b96b818",
+            "colId": "a2305167-0012-4643-9764-184291c6796f",
             "containerId": "",
             "name": "productsPost",
             "url": "http://localhost:3000/Ventas_Online/v1/product",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-06T22:42:12.116Z",
-            "modified": "2024-03-09T01:43:00.766Z",
-            "headers": [],
+            "created": "2024-03-10T04:20:48.004Z",
+            "modified": "2024-03-11T01:34:40.054Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlNDBkZjMxOWIwODgyNmEzNGVhYmEiLCJpYXQiOjE3MTAxMTk4OTQsImV4cCI6MTcxMDEyNzA5NH0.D2K-n4TUcfO6kMfEgARXOUOpqVNUx68q8hwHMFhxg6A"
+                }
+            ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\":\"Producto 2\",\n  \"description\":\"producto de prueba 2\",\n  \"price\":\"10\",\n  \"stockProduc\":\"50\"\n}",
+                "raw": "   {\n        \"name\": \"Mochila de senderismo\",\n        \"description\": \"Mochila de senderismo con capacidad de 40 litros y sistema de ventilación trasera.\",\n        \"price\": 79.99,\n        \"stockProduc\": 100,\n        \"category\": \"65ee46de2dbbf0ad55d19464\"\n    }",
                 "form": []
             },
             "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "9182e0c1-7e43-4206-8034-4429bfd3b94a",
+            "colId": "a2305167-0012-4643-9764-184291c6796f",
+            "containerId": "",
+            "name": "productsGet",
+            "url": "http://localhost:3000/Ventas_Online/v1/product",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-03-10T07:42:06.442Z",
+            "modified": "2024-03-10T07:42:18.807Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "e75a5b6f-8661-4392-ae8c-b8f8fa2f9623",
+            "colId": "a2305167-0012-4643-9764-184291c6796f",
+            "containerId": "",
+            "name": "productsPut",
+            "url": "http://localhost:3000/Ventas_Online/v1/product/65ed572c0b4c53315f04ad41",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-10T07:39:38.797Z",
+            "modified": "2024-03-10T07:40:16.801Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVkNDczODQ2ODhlZGMxMWMwZjQxN2IiLCJpYXQiOjE3MTAwNTYxMTMsImV4cCI6MTcxMDA2MzMxM30.VDDgAOpudSJpjOF2LMw0Wo6Fc0o3dboMCvKNZ9eZGjE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Prueba 2 editada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f61239d1-be97-4475-a688-cbf2573aed0c",
+            "colId": "a2305167-0012-4643-9764-184291c6796f",
+            "containerId": "",
+            "name": "productsDelete",
+            "url": "http://localhost:3000/Ventas_Online/v1/product/65ed572c0b4c53315f04ad41",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-10T07:43:23.776Z",
+            "modified": "2024-03-10T07:45:23.897Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVkNDczODQ2ODhlZGMxMWMwZjQxN2IiLCJpYXQiOjE3MTAwNTYxMTMsImV4cCI6MTcxMDA2MzMxM30.VDDgAOpudSJpjOF2LMw0Wo6Fc0o3dboMCvKNZ9eZGjE"
+                }
+            ],
+            "params": [],
             "tests": []
         }
     ]

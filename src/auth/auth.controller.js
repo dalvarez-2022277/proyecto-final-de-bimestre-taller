@@ -36,7 +36,7 @@ export const Login = async (req = request, res = response) => {
             const token = await generarJWT(users.id);
 
             return res.status(200).json({
-                msg: 'Bienvenido al sistema de ventas online!',
+                msg: 'Bienvenido al sistema',
                 users,
                 token
             })
@@ -44,7 +44,7 @@ export const Login = async (req = request, res = response) => {
         }
 
         return res.status(400).json({
-            msg: 'debes ingresar un correo valido:)'
+            msg: 'debes ingresar un correo valido'
         });
 
     } catch (error) {

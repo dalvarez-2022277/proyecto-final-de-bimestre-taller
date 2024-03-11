@@ -17,7 +17,7 @@ const cartSchema = new mongoose.Schema({
             required: true
         }
     }],
-    totalPagar: {  // Corregido a totalPagar
+    totalPagar: {
         type: Number,
         default: 0
     }

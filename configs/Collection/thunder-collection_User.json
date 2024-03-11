@@ -1,28 +1,78 @@
 {
     "client": "Thunder Client",
     "collectionName": "User",
-    "dateExported": "2024-03-09T01:45:50.604Z",
+    "dateExported": "2024-03-11T01:53:19.087Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "e7962739-30be-4fc6-91fa-ef0edcd66d67",
-            "colId": "bb4af5de-fe42-4b07-a9a1-b29c0fbb5ae0",
+            "_id": "324313b2-d95b-4eb2-9189-5eff8c1c9b1c",
+            "colId": "1e071b90-e338-4833-836b-2f1ae1f09244",
             "containerId": "",
             "name": "userPost",
             "url": "http://localhost:3000/Ventas_Online/v1/user",
             "method": "POST",
-            "sortNum": 10000,
-            "created": "2024-03-04T17:10:07.796Z",
-            "modified": "2024-03-08T05:02:43.271Z",
+            "sortNum": 1250,
+            "created": "2024-03-10T04:20:48.007Z",
+            "modified": "2024-03-10T23:23:15.617Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\":\"Sebastian Iscacuy\",\n  \"email\":\"sistacuy-2022017@kinal.edu.gt\",\n  \"password\":\"123456\"\n}",
+                "raw": "{\n  \"name\":\"Sebastian Alvarez\",\n  \"email\":\"Salvarez@kinal.edu.gt\",\n  \"password\":\"1234567\"\n}",
                 "form": []
             },
             "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "199947eb-01dd-4e21-baf3-91cb8cc6ed02",
+            "colId": "1e071b90-e338-4833-836b-2f1ae1f09244",
+            "containerId": "",
+            "name": "usersPut",
+            "url": "http://localhost:3000/Ventas_Online/v1/user/65ee3c5d189b9f44fcd179c1",
+            "method": "PUT",
+            "sortNum": 2500,
+            "created": "2024-03-10T19:30:27.540Z",
+            "modified": "2024-03-10T23:16:43.968Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMTI0MTYsImV4cCI6MTcxMDExOTYxNn0.pXtYGxS42FUSrlqxNlwsA1gPNNOKCQ-Uzt3xPynh3-0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"name\":\"Diego Alvarez\",\n \"email\":\"Dalvarez-2022277@kinal.edu.gt\",\n \"oldPassword\":\"12345678\"\n  \n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "7271eab4-f773-4e7d-89d9-f688bb3acb37",
+            "colId": "1e071b90-e338-4833-836b-2f1ae1f09244",
+            "containerId": "",
+            "name": "userDelete",
+            "url": "http://localhost:3000/Ventas_Online/v1/user/65ee3c5d189b9f44fcd179c1",
+            "method": "DELETE",
+            "sortNum": 5000,
+            "created": "2024-03-10T19:16:47.699Z",
+            "modified": "2024-03-10T23:20:14.296Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMTI0MTYsImV4cCI6MTcxMDExOTYxNn0.pXtYGxS42FUSrlqxNlwsA1gPNNOKCQ-Uzt3xPynh3-0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"12345678\"\n}",
+                "form": []
+            },
+            "reqType": "del",
             "tests": []
         }
     ]

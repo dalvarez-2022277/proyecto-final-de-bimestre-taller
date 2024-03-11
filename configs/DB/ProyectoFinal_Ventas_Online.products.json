@@ -1,22 +1,1106 @@
 [{
   "_id": {
-    "$oid": "65ebb0ba4909135a971a4937"
+    "$oid": "65ee51cca8dd49900c2000df"
   },
-  "name": "Producto 1",
-  "description": "producto de prueba 1",
-  "price": 2.5,
-  "stockProduc": 10,
+  "name": "iPhone 13 Pro",
+  "description": "Teléfono inteligente de última generación con pantalla OLED y cámara triple.",
+  "price": 1099.99,
+  "stockProduc": 98,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
   "stateProduct": true,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "65ebbea52de2403145638685"
+    "$oid": "65ee51d4a8dd49900c2000e2"
   },
-  "name": "Producto 2",
-  "description": "producto de prueba 2",
-  "price": 10,
+  "name": "MacBook Pro 2023",
+  "description": "Computadora portátil con procesador M2, pantalla Retina y teclado retroiluminado.",
+  "price": 1999.99,
   "stockProduc": 50,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee51daa8dd49900c2000e5"
+  },
+  "name": "iPad Air 5",
+  "description": "Tableta con chip A15 Bionic, pantalla Liquid Retina y soporte para Apple Pencil 3.",
+  "price": 599.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee51e2a8dd49900c2000e8"
+  },
+  "name": "Canon EOS R5",
+  "description": "Cámara digital sin espejo de alta resolución con grabación de video 8K.",
+  "price": 3899.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee51e9a8dd49900c2000eb"
+  },
+  "name": "Sony WH-1000XM4",
+  "description": "Auriculares inalámbricos con cancelación de ruido y sonido de alta fidelidad.",
+  "price": 349.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee51f5a8dd49900c2000ee"
+  },
+  "name": "PlayStation 5",
+  "description": "Consola de videojuegos de próxima generación con gráficos de alta calidad.",
+  "price": 499.99,
+  "stockProduc": 15,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee51fca8dd49900c2000f1"
+  },
+  "name": "Amazon Echo (4ta generación)",
+  "description": "Altavoz inteligente con Alexa para reproducir música, controlar dispositivos y más.",
+  "price": 99.99,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5203a8dd49900c2000f4"
+  },
+  "name": "HP OfficeJet Pro 9025",
+  "description": "Impresora multifunción con impresión a doble cara y conexión inalámbrica.",
+  "price": 329.99,
+  "stockProduc": 25,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5213a8dd49900c2000f7"
+  },
+  "name": "DJI Mavic Air 2",
+  "description": "Drone plegable con cámara 4K, seguimiento de objetos y tiempo de vuelo extendido.",
+  "price": 799.99,
+  "stockProduc": 15,
+  "category": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c04b572a1a2473006a4"
+  },
+  "name": "Nike Air Max 270",
+  "description": "Zapatillas deportivas con amortiguación Air Max y diseño moderno.",
+  "price": 150,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c0ab572a1a2473006a8"
+  },
+  "name": "Gucci GG Marmont",
+  "description": "Bolso de hombro de cuero acolchado con logo GG y cadena dorada.",
+  "price": 1980,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c0fb572a1a2473006ac"
+  },
+  "name": "Rolex Submariner",
+  "description": "Reloj de buceo de lujo con bisel giratorio unidireccional y certificación COSC.",
+  "price": 9500,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c15b572a1a2473006b0"
+  },
+  "name": "Ray-Ban Aviator",
+  "description": "Gafas de sol clásicas con montura de metal y lentes polarizadas.",
+  "price": 169,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c19b572a1a2473006b4"
+  },
+  "name": "Anillo de diamantes",
+  "description": "Anillo de compromiso de oro blanco con diamante solitario.",
+  "price": 5000,
+  "stockProduc": 14,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c1eb572a1a2473006b8"
+  },
+  "name": "Bufanda de cachemira",
+  "description": "Bufanda suave y cálida tejida con lana de cachemira de alta calidad.",
+  "price": 200,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c24b572a1a2473006bc"
+  },
+  "name": "Sombrero Fedora",
+  "description": "Sombrero de fieltro con ala ancha y cinta de grosgrain.",
+  "price": 80,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c29b572a1a2473006c0"
+  },
+  "name": "Cinturón de cuero",
+  "description": "Cinturón de piel de becerro con hebilla metálica de tono plateado.",
+  "price": 120,
+  "stockProduc": 89,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c2eb572a1a2473006c4"
+  },
+  "name": "Guantes de piel",
+  "description": "Guantes de cuero de cabra forrados con cachemira para mayor comodidad.",
+  "price": 80,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c36b572a1a2473006c8"
+  },
+  "name": "Jimmy Choo Love",
+  "description": "Zapatos de tacón alto de cuero italiano con punta en punta y tacón de aguja.",
+  "price": 850,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c7eb572a1a2473006cc"
+  },
+  "name": "Sofá seccional",
+  "description": "Sofá espacioso con sección reclinable y tapizado de tela resistente.",
+  "price": 999.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c84b572a1a2473006d0"
+  },
+  "name": "Mesa de comedor de madera maciza",
+  "description": "Mesa robusta con acabado de nogal y capacidad para 6 personas.",
+  "price": 799.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c89b572a1a2473006d4"
+  },
+  "name": "Lámpara de pie moderna",
+  "description": "Lámpara con base de metal cromado y pantalla de vidrio esmerilado.",
+  "price": 149.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c8eb572a1a2473006d8"
+  },
+  "name": "Juego de sábanas de algodón egipcio",
+  "description": "Juego de sábanas de lujo con hilos de algodón egipcio de alta calidad.",
+  "price": 129.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c93b572a1a2473006dc"
+  },
+  "name": "Alfombra persa",
+  "description": "Alfombra tejida a mano con diseño tradicional persa y colores vibrantes.",
+  "price": 599.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c98b572a1a2473006e0"
+  },
+  "name": "Cuadro de arte contemporáneo",
+  "description": "Cuadro abstracto pintado a mano con colores vivos y marco de madera.",
+  "price": 299.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5c9db572a1a2473006e4"
+  },
+  "name": "Jarrón de cerámica decorativo",
+  "description": "Jarrón grande con acabado brillante y diseño floral grabado.",
+  "price": 79.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5ca3b572a1a2473006e8"
+  },
+  "name": "Cortinas opacas",
+  "description": "Cortinas gruesas con forro opaco para bloquear la luz y mantener la privacidad.",
+  "price": 49.99,
+  "stockProduc": 90,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5ca7b572a1a2473006ec"
+  },
+  "name": "Cojines decorativos",
+  "description": "Cojines cuadrados con estampados modernos y relleno de plumas.",
+  "price": 29.99,
+  "stockProduc": 120,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cadb572a1a2473006f0"
+  },
+  "name": "Escultura de jardín",
+  "description": "Escultura de metal para jardín con forma abstracta y acabado envejecido.",
+  "price": 199.99,
+  "stockProduc": 25,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5ccbb572a1a2473006f4"
+  },
+  "name": "Sofá seccional",
+  "description": "Sofá moderno con sección modular y tapizado de tela de alta calidad.",
+  "price": 1499.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cd0b572a1a2473006f8"
+  },
+  "name": "Mesa de comedor de madera maciza",
+  "description": "Mesa de comedor rectangular con acabado en roble y capacidad para 8 personas.",
+  "price": 799.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cd6b572a1a2473006fc"
+  },
+  "name": "Lámpara de pie moderna",
+  "description": "Lámpara de pie con base de metal y pantalla de tela en color blanco.",
+  "price": 129.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cdbb572a1a247300700"
+  },
+  "name": "Juego de sábanas de algodón egipcio",
+  "description": "Juego de sábanas de lujo con tejido de algodón egipcio de 1000 hilos.",
+  "price": 199.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5ce0b572a1a247300704"
+  },
+  "name": "Alfombra persa",
+  "description": "Alfombra tradicional tejida a mano con patrones geométricos y florales.",
+  "price": 699.99,
+  "stockProduc": 10,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5ce6b572a1a247300708"
+  },
+  "name": "Cuadro de arte contemporáneo",
+  "description": "Cuadro abstracto pintado a mano en lienzo montado en un marco de madera.",
+  "price": 299.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cecb572a1a24730070c"
+  },
+  "name": "Jarrón de cerámica decorativo",
+  "description": "Jarrón de cerámica esmaltada en tonos azules y blancos con patrones florales.",
+  "price": 79.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cf1b572a1a247300710"
+  },
+  "name": "Cortinas opacas",
+  "description": "Cortinas con tela opaca que bloquean la luz y proporcionan privacidad.",
+  "price": 49.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cf7b572a1a247300714"
+  },
+  "name": "Cojines decorativos",
+  "description": "Cojines decorativos con estampados geométricos y textura suave.",
+  "price": 29.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5cfdb572a1a247300718"
+  },
+  "name": "Escultura de jardín",
+  "description": "Escultura de metal para jardín con forma abstracta y acabado en óxido.",
+  "price": 199.99,
+  "stockProduc": 15,
+  "category": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d1eb572a1a24730071c"
+  },
+  "name": "Set de brochas de maquillaje",
+  "description": "Set de brochas profesionales de maquillaje con cerdas suaves y mango de madera.",
+  "price": 29.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d23b572a1a247300720"
+  },
+  "name": "Crema antiarrugas",
+  "description": "Crema facial antiarrugas con colágeno y ácido hialurónico para pieles maduras.",
+  "price": 49.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d28b572a1a247300724"
+  },
+  "name": "Perfume floral",
+  "description": "Perfume femenino con notas florales de rosa y jazmín en una elegante botella.",
+  "price": 79.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d2cb572a1a247300728"
+  },
+  "name": "Cepillo eléctrico de dientes",
+  "description": "Cepillo de dientes eléctrico recargable con cabezal de cerdas suaves.",
+  "price": 39.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d31b572a1a24730072c"
+  },
+  "name": "Secador de pelo iónico",
+  "description": "Secador de pelo con tecnología iónica para reducir el frizz y proteger el cabello.",
+  "price": 69.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d35b572a1a247300730"
+  },
+  "name": "Espejo de aumento con luz",
+  "description": "Espejo de aumento con luz LED y ventosa para montaje en superficies planas.",
+  "price": 34.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d3ab572a1a247300734"
+  },
+  "name": "Exfoliante corporal",
+  "description": "Exfoliante corporal con partículas de sal marina y aceite de coco para una piel suave.",
+  "price": 19.99,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d41b572a1a247300738"
+  },
+  "name": "Afeitadora eléctrica",
+  "description": "Afeitadora eléctrica recargable para un afeitado suave y preciso.",
+  "price": 89.99,
+  "stockProduc": 25,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d46b572a1a24730073c"
+  },
+  "name": "Mascarilla facial de arcilla",
+  "description": "Mascarilla facial purificante con arcilla natural para una piel limpia y radiante.",
+  "price": 24.99,
+  "stockProduc": 90,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d4bb572a1a247300740"
+  },
+  "name": "Kit de manicura y pedicura",
+  "description": "Kit completo de manicura y pedicura con lima, cortaúñas y herramientas de cuidado.",
+  "price": 49.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d79b572a1a247300746"
+  },
+  "name": "Café en grano",
+  "description": "Café gourmet de origen colombiano, tostado medio y sabor suave.",
+  "price": 12.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d7fb572a1a24730074a"
+  },
+  "name": "Vino tinto reserva",
+  "description": "Vino tinto reserva de crianza en barrica de roble, con notas de frutas maduras.",
+  "price": 29.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d84b572a1a24730074e"
+  },
+  "name": "Queso manchego",
+  "description": "Queso manchego de leche de oveja con denominación de origen y curación media.",
+  "price": 14.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d88b572a1a247300752"
+  },
+  "name": "Chocolate negro 70% cacao",
+  "description": "Tableta de chocolate negro con alto contenido de cacao para un sabor intenso.",
+  "price": 8.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d8fb572a1a247300756"
+  },
+  "name": "Miel de abeja orgánica",
+  "description": "Miel de abeja 100% pura y orgánica, recolectada en colmenas sostenibles.",
+  "price": 19.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d94b572a1a24730075a"
+  },
+  "name": "Aceite de oliva virgen extra",
+  "description": "Aceite de oliva virgen extra de primera prensada en frío, con sabor afrutado.",
+  "price": 16.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5d9ab572a1a24730075e"
+  },
+  "name": "Sal marina gourmet",
+  "description": "Sal marina gourmet de las costas de Sicilia, con textura fina y sabor delicado.",
+  "price": 7.99,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5da0b572a1a247300762"
+  },
+  "name": "Mermelada artesanal",
+  "description": "Mermelada casera elaborada con frutas frescas y azúcar de caña orgánica.",
+  "price": 9.99,
+  "stockProduc": 90,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5da5b572a1a247300766"
+  },
+  "name": "Sushi fresco",
+  "description": "Sushi fresco y variado preparado con ingredientes de alta calidad.",
+  "price": 24.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5da9b572a1a24730076a"
+  },
+  "name": "Galletas de avena y pasas",
+  "description": "Galletas caseras de avena y pasas, horneadas a diario para conservar su frescura.",
+  "price": 6.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e26b572a1a24730076e"
+  },
+  "name": "El Alquimista",
+  "description": "Novela de Paulo Coelho que narra la historia de un joven que busca su destino.",
+  "price": 14.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e2ab572a1a247300772"
+  },
+  "name": "Cien años de soledad",
+  "description": "Obra maestra de Gabriel García Márquez que narra la historia de la familia Buendía.",
+  "price": 19.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e2fb572a1a247300776"
+  },
+  "name": "Harry Potter y la piedra filosofal",
+  "description": "Primer libro de la saga de Harry Potter, escrito por J.K. Rowling.",
+  "price": 12.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e34b572a1a24730077a"
+  },
+  "name": "1984",
+  "description": "Clásico distópico de George Orwell que describe una sociedad totalitaria.",
+  "price": 9.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e39b572a1a24730077e"
+  },
+  "name": "Maus",
+  "description": "Novela gráfica de Art Spiegelman que relata la historia del Holocausto.",
+  "price": 24.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e3db572a1a247300782"
+  },
+  "name": "Sapiens: De animales a dioses",
+  "description": "Libro de Yuval Noah Harari que explora la historia de la humanidad.",
+  "price": 29.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e41b572a1a247300786"
+  },
+  "name": "The Subtle Art of Not Giving a F*ck",
+  "description": "Libro de autoayuda de Mark Manson que promueve el enfoque en lo importante.",
+  "price": 17.99,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e46b572a1a24730078a"
+  },
+  "name": "El amor en los tiempos del cólera",
+  "description": "Novela de Gabriel García Márquez que explora el amor y el tiempo.",
+  "price": 16.99,
+  "stockProduc": 90,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e4bb572a1a24730078e"
+  },
+  "name": "El Principito",
+  "description": "Clásico de Antoine de Saint-Exupéry que narra la historia de un joven príncipe.",
+  "price": 11.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5e50b572a1a247300792"
+  },
+  "name": "Canción de hielo y fuego: Juego de tronos",
+  "description": "Primer libro de la saga de fantasía épica escrita por George R.R. Martin.",
+  "price": 22.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f82b572a1a247300796"
+  },
+  "name": "Bicicleta de montaña",
+  "description": "Bicicleta de montaña con cuadro de aluminio y suspensión delantera.",
+  "price": 699.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f87b572a1a24730079a"
+  },
+  "name": "Tabla de paddle surf",
+  "description": "Tabla de paddle surf inflable con remo ajustable y accesorios.",
+  "price": 499.99,
+  "stockProduc": 50,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f8db572a1a24730079e"
+  },
+  "name": "Raqueta de tenis",
+  "description": "Raqueta de tenis profesional con tecnología de fibra de carbono.",
+  "price": 199.99,
+  "stockProduc": 30,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f93b572a1a2473007a2"
+  },
+  "name": "Tienda de campaña familiar",
+  "description": "Tienda de campaña espaciosa con capacidad para 6 personas y diseño resistente al agua.",
+  "price": 299.99,
+  "stockProduc": 80,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f98b572a1a2473007a6"
+  },
+  "name": "Pelota de fútbol",
+  "description": "Pelota de fútbol oficial con diseño clásico de 32 paneles y material duradero.",
+  "price": 29.99,
+  "stockProduc": 40,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5f9cb572a1a2473007aa"
+  },
+  "name": "Tabla de skate",
+  "description": "Tabla de skate con diseño moderno y ejes de aluminio reforzado.",
+  "price": 89.99,
+  "stockProduc": 60,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5fa0b572a1a2473007ae"
+  },
+  "name": "Cuerda de saltar",
+  "description": "Cuerda de saltar ajustable con mangos de espuma antideslizante.",
+  "price": 9.99,
+  "stockProduc": 70,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5fa6b572a1a2473007b2"
+  },
+  "name": "Guantes de boxeo",
+  "description": "Guantes de boxeo profesionales con acolchado de gel y cierre de velcro.",
+  "price": 49.99,
+  "stockProduc": 90,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5fabb572a1a2473007b6"
+  },
+  "name": "Binoculares compactos",
+  "description": "Binoculares compactos con aumento 10x y lentes recubiertas para una visión clara.",
+  "price": 39.99,
+  "stockProduc": 20,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "stateProduct": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee5fb0b572a1a2473007ba"
+  },
+  "name": "Mochila de senderismo",
+  "description": "Mochila de senderismo con capacidad de 40 litros y sistema de ventilación trasera.",
+  "price": 79.99,
+  "stockProduc": 100,
+  "category": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
   "stateProduct": true,
   "__v": 0
 }]

@@ -39,19 +39,21 @@ export const addToCart = async (req, res) => {
       }
       cart.products.push({ product: productId, stockProduc: quantity });
     }
+    
     await cart.save();    
     cart = await Cart.populate(cart, { path: 'products.product' });
 
-    const calcularTotalPagar = (productos) => {
-      let total = 0;
-      productos.forEach(item => {
-        total += item.product.price * item.stockProduc;
-      });
-      return total;
-    };
-
-    const totalPagar = calcularTotalPagar(cart.products); // Cambio de totalApagar a totalPagar
-    cart.totalPagar = totalPagar; // Cambio de totalPrice a totalPagar
+    let totalPagar = 0;
+    for (const item of cart.products) {
+      const productPrice = item.product.price;
+      const quantityInCart = item.stockProduc;
+      if (isNaN(productPrice) || isNaN(quantityInCart)) {
+        return res.status(500).json({ message: 'Error interno del servidor: Precio del producto o cantidad en el carrito no es un número válido' });
+      }
+      totalPagar += productPrice * quantityInCart;
+    }
+    
+    cart.totalPagar = totalPagar;
     await cart.save();
 
     const responseData = {
@@ -61,7 +63,8 @@ export const addToCart = async (req, res) => {
         product: {
           _id: item.product._id,
           name: item.product.name,
-          price: item.product.price
+          price: item.product.price,
+          category: item.product.category
         },
         quantityCarr: item.stockProduc
       })),

@@ -1,47 +1,48 @@
 {
     "client": "Thunder Client",
     "collectionName": "Login",
-    "dateExported": "2024-03-09T01:45:46.854Z",
+    "dateExported": "2024-03-11T01:53:07.580Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "a1bb571a-941c-4c8b-b914-4f9b00cfc342",
-            "colId": "245d318d-50e8-4f60-9cba-a2507cdf2616",
+            "_id": "c721eae6-f14f-49fb-809c-aa2152d755fc",
+            "colId": "c43373db-fe6a-4201-92e1-47902e7feaae",
             "containerId": "",
             "name": "loginPost",
             "url": "http://localhost:3000/Ventas_Online/v1/login",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-04T17:57:37.702Z",
-            "modified": "2024-03-09T01:28:10.977Z",
+            "created": "2024-03-10T04:20:48.001Z",
+            "modified": "2024-03-10T23:20:48.421Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\":\"sistacuy-2022017@kinal.edu.gt\",\n  \"password\":\"123456\"\n}",
+                "raw": "{\n  \"email\":\"Dalvarez-2022277@kinal.edu.gt\",\n  \"password\":\"12345678\"\n}",
                 "form": []
             },
             "reqType": "post",
             "tests": []
         },
         {
-            "_id": "c29de649-2ddb-45e9-aa95-77d0ae7de0a5",
-            "colId": "245d318d-50e8-4f60-9cba-a2507cdf2616",
+            "_id": "5611a197-dc71-43da-b90a-cd01a65f7674",
+            "colId": "c43373db-fe6a-4201-92e1-47902e7feaae",
             "containerId": "",
             "name": "loginPost_admin",
             "url": "http://localhost:3000/Ventas_Online/v1/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-06T21:52:52.923Z",
-            "modified": "2024-03-06T21:57:49.583Z",
+            "created": "2024-03-10T04:20:48.002Z",
+            "modified": "2024-03-10T05:39:16.734Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\":\"admin@gmail.com\",\n  \"password\":\"Tc#9gJ2$V!sFz@Wq\"\n}",
+                "raw": "{\n  \"email\":\"admin@kinal.edu.gt\",\n  \"password\":\"Tc#9gJ2$V!sFz@Wq\"\n}",
                 "form": []
             },
+            "reqType": "post",
             "tests": []
         }
     ]

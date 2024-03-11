@@ -1,30 +1,11 @@
 [{
   "_id": {
-    "$oid": "65ebbe712de2403145638677"
+    "$oid": "65ee627fb572a1a2473007c2"
   },
   "userId": {
-    "$oid": "65ea9bf46f8c37820fb9d417"
+    "$oid": "65ee3c5d189b9f44fcd179c1"
   },
-  "products": [
-    {
-      "product": {
-        "$oid": "65ebb0ba4909135a971a4937"
-      },
-      "stockProduc": 2,
-      "_id": {
-        "$oid": "65ebbe712de2403145638679"
-      }
-    },
-    {
-      "product": {
-        "$oid": "65ebbea52de2403145638685"
-      },
-      "stockProduc": 25,
-      "_id": {
-        "$oid": "65ebbeae2de240314563868c"
-      }
-    }
-  ],
-  "totalPagar": 255,
-  "__v": 1
+  "products": [],
+  "totalPagar": 94819.73,
+  "__v": 4
 }]

@@ -1,36 +1,36 @@
 import mongoose from "mongoose";
 
-const Role = {
-    ADMIN: "ADMIN",
-    CLIENT: "CLIENT",};
-const UserSchema = new mongoose.Schema({
+const tipoUser = ['ADMIN','CLIENT'];
+
+const UserSchema = mongoose.Schema({
     name: {
         type: String,
-        required: [true, "Name is required"],
+        required: [true, "the name is a parameter required"],
     },
     email: {
         type: String,
-        required: [true, "Email is required"],
+        required: [true, "the email is a parameter required"],
     },
     password: {
         type: String,
-        required: [true, "Password is required"],
+        required: [true, "the pass is a parameter required"],
     },
     role: {
         type: String,
-        enum: Object.values(Role),
-        default: Role.CLIENT,
-        required: [true, "Role is required"],
+        enum: tipoUser,
+        default: 'CLIENT',
     },
-    status: {
+    userState: {
         type: Boolean,
         default: true,
-    },
+    }
 });
 
-UserSchema.methods.toJSON = function (){
-    const { __v, password, _id, ...user } = this.toObject();
-    user.uid = _id;
-    return user;
-};
-export default mongoose.model("User", UserSchema);
+UserSchema.methods.toJSON = function(){
+    const { __v, _id, ...usera} = this.toObject();
+    usera.uid = _id;
+    return usera;
+}
+
+
+export default mongoose.model('Users', UserSchema);

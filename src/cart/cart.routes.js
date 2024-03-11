@@ -10,7 +10,7 @@ const router = express.Router();
 router.post('/', [
     check('productId', 'El producto no existe').custom(existeProductoById),
     check('productId', 'El id no es un id valido').isMongoId(),
-    check('quantity', 'Quantity must be a positive integer').isInt({ min: 1 }),
+    check('quantity', 'Quantity debe ser un numero positivo').isInt({ min: 1 }),
     validarCampos,
     validarJWT,
 ], addToCart);
