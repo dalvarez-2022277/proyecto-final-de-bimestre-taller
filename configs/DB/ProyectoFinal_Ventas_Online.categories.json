@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "65ee41e9319b08826a34eac0"
+  },
+  "nameCategory": "Electrónica y Tecnología",
+  "descriptionCategory": "Productos de Electronica y Tecnologia variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee457d2dbbf0ad55d19453"
+  },
+  "nameCategory": "Moda y Accesorios",
+  "descriptionCategory": "Productos de Moda y Accesorios variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee45ad2dbbf0ad55d19458"
+  },
+  "nameCategory": "Hogar y Decoración",
+  "descriptionCategory": "Prodtos de hogar y decoracion variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee45c92dbbf0ad55d1945b"
+  },
+  "nameCategory": "Salud y Belleza",
+  "descriptionCategory": "Prodtos de Salud y Belleza variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee46872dbbf0ad55d1945e"
+  },
+  "nameCategory": "Alimentación y Bebidas",
+  "descriptionCategory": "Prodtos de Alimentación y Bebidas variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee46c72dbbf0ad55d19461"
+  },
+  "nameCategory": "Libros y Medios",
+  "descriptionCategory": "Prodtos de Libros y Medios variados",
+  "categoryState": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ee46de2dbbf0ad55d19464"
+  },
+  "nameCategory": "Deportes y Aire Libre",
+  "descriptionCategory": "Prodtos de Deportes y Aire Libre y acuaticos variados",
+  "categoryState": true,
+  "__v": 0
+}]

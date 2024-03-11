@@ -1,0 +1,98 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Categorias",
+    "dateExported": "2024-03-11T01:52:56.338Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6e66176e-14b2-437b-adeb-f2fdfd62bce8",
+            "colId": "dab16b5b-65a2-4d4a-a415-61768d77a27a",
+            "containerId": "",
+            "name": "categoriasPost",
+            "url": "http://localhost:3000/Ventas_Online/v1/category",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-10T07:47:01.473Z",
+            "modified": "2024-03-10T23:48:45.356Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlNDBkZjMxOWIwODgyNmEzNGVhYmEiLCJpYXQiOjE3MTAxMTMwMTYsImV4cCI6MTcxMDEyMDIxNn0.GvroqE9eLX_I1kW4Tti7EiallxnWyyH8geGdUiczGE4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCategory\": \"Deportes y Aire Libre\",\n  \"descriptionCategory\": \"Prodtos de Deportes y Aire Libre variados\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "5e490f64-624d-4bb4-9a22-862208acdd5d",
+            "colId": "dab16b5b-65a2-4d4a-a415-61768d77a27a",
+            "containerId": "",
+            "name": "categoriasGet",
+            "url": "http://localhost:3000/Ventas_Online/v1/category/categorias",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-03-10T23:35:09.254Z",
+            "modified": "2024-03-10T23:41:24.189Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlM2M1ZDE4OWI5ZjQ0ZmNkMTc5YzEiLCJpYXQiOjE3MTAxMTM5MzMsImV4cCI6MTcxMDEyMTEzM30.Jeu2TtJ5EWcFMM4SUd8NPVBIrjc9JcfIizyB3UN7euQ"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "3ad8ab7c-a3ab-4166-a5e6-f25fe7df4727",
+            "colId": "dab16b5b-65a2-4d4a-a415-61768d77a27a",
+            "containerId": "",
+            "name": "categoriaPut",
+            "url": "http://localhost:3000/Ventas_Online/v1/category/65ee46de2dbbf0ad55d19464",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-10T07:48:13.137Z",
+            "modified": "2024-03-10T23:55:04.255Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVlNDBkZjMxOWIwODgyNmEzNGVhYmEiLCJpYXQiOjE3MTAxMTMwMTYsImV4cCI6MTcxMDEyMDIxNn0.GvroqE9eLX_I1kW4Tti7EiallxnWyyH8geGdUiczGE4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCategory\":\"Deportes y Aire Libre\",\n  \"descriptionCategory\":\"Prodtos de Deportes y Aire Libre y acuaticos variados\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "bdd5a733-3ea8-4482-9d24-326022441b0f",
+            "colId": "dab16b5b-65a2-4d4a-a415-61768d77a27a",
+            "containerId": "",
+            "name": "categoriasDelete",
+            "url": "http://localhost:3000/Ventas_Online/v1/category/65ed51b2f82f2c2733d45f50",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-10T08:42:33.863Z",
+            "modified": "2024-03-10T08:43:49.915Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVkNDczODQ2ODhlZGMxMWMwZjQxN2IiLCJpYXQiOjE3MTAwNTk3ODgsImV4cCI6MTcxMDA2Njk4OH0.479Yv9UAhlYKIthL3COIWkEf83xtz9CuEqpAJIymWeo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "65ee6311b572a1a2473007f0"
+  },
+  "comprador": {
+    "$oid": "65ee3c5d189b9f44fcd179c1"
+  },
+  "productos": [
+    {
+      "producto": {
+        "$oid": "65ee51cca8dd49900c2000df"
+      },
+      "cantidad": 2,
+      "precioUnitario": 1099.99,
+      "subtotal": 2199.98,
+      "_id": {
+        "$oid": "65ee6311b572a1a2473007f1"
+      }
+    },
+    {
+      "producto": {
+        "$oid": "65ee51f5a8dd49900c2000ee"
+      },
+      "cantidad": 25,
+      "precioUnitario": 499.99,
+      "subtotal": 12499.75,
+      "_id": {
+        "$oid": "65ee6311b572a1a2473007f2"
+      }
+    },
+    {
+      "producto": {
+        "$oid": "65ee5c19b572a1a2473006b4"
+      },
+      "cantidad": 16,
+      "precioUnitario": 5000,
+      "subtotal": 80000,
+      "_id": {
+        "$oid": "65ee6311b572a1a2473007f3"
+      }
+    },
+    {
+      "producto": {
+        "$oid": "65ee5c29b572a1a2473006c0"
+      },
+      "cantidad": 1,
+      "precioUnitario": 120,
+      "subtotal": 120,
+      "_id": {
+        "$oid": "65ee6311b572a1a2473007f4"
+      }
+    }
+  ],
+  "total": 94819.73,
+  "fecha": {
+    "$date": "2024-03-11T01:49:05.319Z"
+  },
+  "__v": 0
+}]
