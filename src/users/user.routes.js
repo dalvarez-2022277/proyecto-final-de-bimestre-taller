@@ -12,8 +12,8 @@ routerUsers.post(
     '/',
     [
         check("name", "this name is a parameter required").not().isEmpty(),
-        check("email", "the parameter is required").custom(existeEmail).isEmail(),
-        check("password", "the pass is required").isLength({ min: 6, }),
+        check("email", "El Email es obligatorio o bien no es un formato valido").custom(existeEmail).isEmail(),
+        check("password", "El password es obligatorio mauyor a 6 caracteres").isLength({ min: 6, }),
         verificarUser,
         validarCampos
     ],
@@ -25,7 +25,7 @@ routerUsers.put(
     '/:id',
     [
         validarJWT,
-        check("password", "the pass is required").isLength({ min: 6, }),
+        check("password", "El password es obligatorio mauyor a 6 caracteres").isLength({ min: 6, }),
     ],
     usersUpdate
 );

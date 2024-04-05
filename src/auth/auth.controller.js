@@ -35,11 +35,11 @@ export const Login = async (req = request, res = response) => {
 
             const token = await generarJWT(users.id);
 
+            console.log(token);
             return res.status(200).json({
                 msg: 'Bienvenido al sistema',
-                users,
-                token
-            })
+                token: token
+            });
 
         }
 
